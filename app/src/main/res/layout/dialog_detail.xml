@@ -2,68 +2,62 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="3in"
+    android:layout_height="2in"
     android:background="@drawable/khung_mess2">
 
     <TextView
         android:id="@+id/tVIn4"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="2in"
+        android:layout_height="0.8in"
+        android:layout_below="@+id/tVAAA"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="220dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginRight="50dp"
-        android:layout_marginBottom="160dp"
-        android:textColor="@color/black"
-        android:text="" />
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0.35in"
+        android:layout_marginLeft="0.35in"
+        android:layout_marginTop="0.15in"
+        android:layout_marginEnd="0.35in"
+        android:layout_marginRight="0.35in"
+        android:text=""
+        android:textColor="#663300" />
 
     <TextView
         android:id="@+id/tVAAA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
 
-        android:layout_marginTop="64dp"
-        android:layout_marginBottom="627dp"
+        android:layout_marginTop="0.12in"
         android:text="AAA"
         android:textColor="@color/white"
-        android:textSize="30dp"
+        android:textSize="0.15in"
         android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/btnOk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_below="@+id/tVAAA"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="488dp"
-        android:layout_marginBottom="173dp"
+        android:layout_marginTop="0.7in"
         app:srcCompat="@drawable/khung_mess3" />
 
     <TextView
         android:id="@+id/tVOk"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_width="1.3in"
+        android:layout_height="0.3in"
         android:layout_alignParentBottom="true"
-
+        android:gravity="center"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="530dp"
-        android:layout_marginBottom="200dp"
+        android:layout_marginBottom="0.35in"
         android:text="OK"
         android:textColor="@color/white"
-        android:textSize="30dp"
+        android:textSize="0.15in"
         android:textStyle="bold" />
 
 </RelativeLayout>

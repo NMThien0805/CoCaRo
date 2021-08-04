@@ -3,7 +3,6 @@ package com.example.cocaro;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -12,14 +11,13 @@ import android.view.Window;
 import android.view.WindowManager;
 
 import android.widget.ImageView;
-import android.widget.TextView;
 
 
 public class frmChoose1 extends AppCompatActivity {
 
     ImageView btnPVP, btnPVE, detailPVP, detailPVE;
 
-    Dialog dialog;
+    ShowDialog helpDialog = new ShowDialog(this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,52 +57,16 @@ public class frmChoose1 extends AppCompatActivity {
         detailPVP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showDialog("PVP");
+                helpDialog.showDialogIn4("PVP", "Chế độ chơi giữa 2 người với nhau!!! \nThời gian chơi của mỗi người là giới hạn" +
+                        " ai dùng hết giờ trước sẽ thua");
             }
         });
         detailPVE.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showDialog("PVE");
+                helpDialog.showDialogIn4("PVE", "Chế độ chơi giữa người và máy!!! \nThời gian chơi của mỗi người là giới hạn" +
+                        " ai dùng hết giờ trước sẽ thua");
             }
         });
-    }
-
-    public void showDialog(String hinhthucchoi){
-        dialog = new Dialog(this);
-//        dialog.setTitle("You win!!!");
-        dialog.setContentView(R.layout.dialog_detail);
-
-        TextView tVAAA;
-        TextView tVIn4;
-        ImageView btnOk;
-
-        tVAAA = dialog.findViewById(R.id.tVAAA);
-        tVAAA.setText(hinhthucchoi);
-
-        tVIn4 = dialog.findViewById(R.id.tVIn4);
-        if(hinhthucchoi.equals("PVP")){
-            tVIn4.setText("webjkwjebbwkejbvwe kwej kwefwkenfw,ekv wefwvlkwe w,ve" +
-                    "wefwefwefwefwefwewfwefwefffffffffffffffffffffffffff" +
-                    "wefwefwefweffffffffffffffffffffffffffffffffffffffffff" +
-                    "wefwefweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee" +
-                    "ewfwefwefwefffffffffffffffffffffffffffffffffffffffffffffffff" +
-                    "wefweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee");
-        }
-        else{
-            tVIn4.setText("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" +
-                    "ewfwefwefwefffffffffffffffffffffffffffffffffffffffffffffffff" +
-                    "wefweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee");
-        }
-
-        btnOk = dialog.findViewById(R.id.btnOk);
-        btnOk.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                dialog.dismiss();
-            }
-        });
-
-        dialog.show();
     }
 }
