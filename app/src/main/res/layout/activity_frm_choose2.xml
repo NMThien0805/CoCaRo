@@ -80,7 +80,7 @@
                     android:layout_marginEnd="203dp"
                     android:layout_marginRight="203dp"
                     android:layout_marginBottom="133dp"
-                    android:background="@color/black" />
+                    android:src="@color/black" />
                 <ImageView
                     android:id="@+id/image02p"
                     android:layout_width="40dp"
@@ -91,7 +91,7 @@
                     android:layout_marginEnd="155dp"
                     android:layout_marginRight="115dp"
                     android:layout_marginBottom="133dp"
-                    android:background="@color/black" />
+                    android:src="@color/black" />
                 <ImageView
                     android:id="@+id/image03p"
                     android:layout_width="40dp"
@@ -102,7 +102,7 @@
                     android:layout_marginEnd="107dp"
                     android:layout_marginRight="107dp"
                     android:layout_marginBottom="133dp"
-                    android:background="@color/black" />
+                    android:src="@color/black" />
 
                 <ImageView
                     android:id="@+id/image11p"
@@ -114,7 +114,7 @@
                     android:layout_marginEnd="203dp"
                     android:layout_marginRight="203dp"
                     android:layout_marginBottom="85dp"
-                    android:background="@color/black" />
+                    android:src="@drawable/x" />
                 <ImageView
                     android:id="@+id/image12p"
                     android:layout_width="40dp"
@@ -125,7 +125,7 @@
                     android:layout_marginEnd="155dp"
                     android:layout_marginRight="115dp"
                     android:layout_marginBottom="85dp"
-                    android:background="@color/black" />
+                    android:src="@drawable/x" />
                 <ImageView
                     android:id="@+id/image13p"
                     android:layout_width="40dp"
@@ -136,7 +136,7 @@
                     android:layout_marginEnd="107dp"
                     android:layout_marginRight="107dp"
                     android:layout_marginBottom="85dp"
-                    android:background="@color/black" />
+                    android:src="@drawable/o" />
                 <ImageView
                     android:id="@+id/image31p"
                     android:layout_width="40dp"
@@ -147,7 +147,7 @@
                     android:layout_marginEnd="203dp"
                     android:layout_marginRight="203dp"
                     android:layout_marginBottom="37dp"
-                    android:background="@color/black" />
+                    android:src="@drawable/o" />
                 <ImageView
                     android:id="@+id/image32p"
                     android:layout_width="40dp"
@@ -158,7 +158,7 @@
                     android:layout_marginEnd="155dp"
                     android:layout_marginRight="115dp"
                     android:layout_marginBottom="37dp"
-                    android:background="@color/black" />
+                    android:src="@drawable/o" />
                 <ImageView
                     android:id="@+id/image33p"
                     android:layout_width="40dp"
@@ -169,7 +169,7 @@
                     android:layout_marginEnd="107dp"
                     android:layout_marginRight="107dp"
                     android:layout_marginBottom="37dp"
-                    android:background="@color/black" />
+                    android:src="@drawable/x" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -267,7 +267,7 @@
                     android:layout_marginEnd="188dp"
                     android:layout_marginRight="188dp"
                     android:layout_marginBottom="82dp"
-                    android:background="@color/teal_700" />
+                    android:src="@drawable/o" />
 
                 <ImageView
                     android:id="@+id/image16e"
@@ -279,7 +279,7 @@
                     android:layout_marginEnd="140dp"
                     android:layout_marginRight="140dp"
                     android:layout_marginBottom="129dp"
-                    android:background="@color/black" />
+                    android:src="@drawable/x" />
 
                 <ImageView
                     android:id="@+id/image17e"
@@ -291,7 +291,7 @@
                     android:layout_marginEnd="164dp"
                     android:layout_marginRight="164dp"
                     android:layout_marginBottom="117dp"
-                    android:background="@color/black" />
+                    android:src="@drawable/x" />
 
                 <ImageView
                     android:id="@+id/image015e"
@@ -303,7 +303,7 @@
                     android:layout_marginEnd="152dp"
                     android:layout_marginRight="152dp"
                     android:layout_marginBottom="117dp"
-                    android:background="@color/teal_700" />
+                    android:src="@drawable/o" />
 
                 <ImageView
                     android:id="@+id/imag004e"
@@ -315,7 +315,7 @@
                     android:layout_marginEnd="176dp"
                     android:layout_marginRight="176dp"
                     android:layout_marginBottom="117dp"
-                    android:background="@color/teal_700" />
+                    android:src="@drawable/o" />
 
                 <ImageView
                     android:id="@+id/image003e"
@@ -327,7 +327,7 @@
                     android:layout_marginEnd="188dp"
                     android:layout_marginRight="188dp"
                     android:layout_marginBottom="117dp"
-                    android:background="@color/teal_700" />
+                    android:src="@drawable/o" />
 
                 <ImageView
                     android:id="@+id/image11e"
@@ -339,7 +339,7 @@
                     android:layout_marginEnd="176dp"
                     android:layout_marginRight="176dp"
                     android:layout_marginBottom="105dp"
-                    android:background="@color/black" />
+                    android:src="@drawable/x" />
 
                 <ImageView
                     android:id="@+id/image014e"
@@ -351,7 +351,7 @@
                     android:layout_marginEnd="164dp"
                     android:layout_marginRight="164dp"
                     android:layout_marginBottom="105dp"
-                    android:background="@color/teal_700" />
+                    android:src="@drawable/o" />
 
                 <ImageView
                     android:id="@+id/image15e"
@@ -363,7 +363,7 @@
                     android:layout_marginEnd="188dp"
                     android:layout_marginRight="188dp"
                     android:layout_marginBottom="93dp"
-                    android:background="@color/black" />
+                    android:src="@drawable/x" />
 
                 <ImageView
                     android:id="@+id/image14e"
@@ -375,7 +375,7 @@
                     android:layout_marginEnd="188dp"
                     android:layout_marginRight="188dp"
                     android:layout_marginBottom="105dp"
-                    android:background="@color/black" />
+                    android:src="@drawable/x" />
 
                 <ImageView
                     android:id="@+id/image013e"
@@ -387,7 +387,7 @@
                     android:layout_marginEnd="176dp"
                     android:layout_marginRight="176dp"
                     android:layout_marginBottom="93dp"
-                    android:background="@color/teal_700" />
+                    android:src="@drawable/o" />
 
                 <ImageView
                     android:id="@+id/image13e"
@@ -399,7 +399,7 @@
                     android:layout_marginEnd="164dp"
                     android:layout_marginRight="164dp"
                     android:layout_marginBottom="93dp"
-                    android:background="@color/black" />
+                    android:src="@drawable/x" />
 
                 <ImageView
                     android:id="@+id/image002e"
@@ -411,7 +411,7 @@
                     android:layout_marginEnd="164dp"
                     android:layout_marginRight="164dp"
                     android:layout_marginBottom="82dp"
-                    android:background="@color/teal_700" />
+                    android:src="@drawable/o" />
 
                 <ImageView
                     android:id="@+id/image18e"
@@ -423,7 +423,7 @@
                     android:layout_marginEnd="200dp"
                     android:layout_marginRight="200dp"
                     android:layout_marginBottom="82dp"
-                    android:background="@color/black" />
+                    android:src="@drawable/x" />
 
                 <ImageView
                     android:id="@+id/image12e"
@@ -435,7 +435,7 @@
                     android:layout_marginEnd="152dp"
                     android:layout_marginRight="152dp"
                     android:layout_marginBottom="82dp"
-                    android:background="@color/black" />
+                    android:src="@drawable/x" />
 
                 <ImageView
                     android:id="@+id/image011e"
@@ -447,7 +447,7 @@
                     android:layout_marginEnd="200dp"
                     android:layout_marginRight="200dp"
                     android:layout_marginBottom="70dp"
-                    android:background="@color/teal_700" />
+                    android:src="@drawable/o" />
 
                 <ImageView
                     android:id="@+id/image001e"
@@ -459,7 +459,7 @@
                     android:layout_marginEnd="176dp"
                     android:layout_marginRight="176dp"
                     android:layout_marginBottom="82dp"
-                    android:background="@color/teal_700" />
+                    android:src="@drawable/o" />
 
             </RelativeLayout>
         </LinearLayout>

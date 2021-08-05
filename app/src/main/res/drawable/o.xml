@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <corners
+                android:radius="20dp" />
+
+            <!--If your shape requires only one solid color-->
+            <solid android:color="#003366" />
+            <size
+                android:width="100dp"
+                android:height="110dp" />
+            <!--Use android:dashWidth="2dp" and android:dashGap="2dp"
+            to add dashes to your stroke-->
+            <stroke
+                android:width="4dp"
+                android:color="#003366" />
+        </shape>
+    </item>
+    <item
+        android:width="90dp"
+        android:height="100dp"
+        android:left="5dp"
+        android:top="5dp">
+        <shape android:shape="oval">
+            <corners
+                android:radius="20dp" />
+
+            <!--If your shape requires only one solid color-->
+            <solid android:color="#00547E" />
+            <!--Use android:dashWidth="2dp" and android:dashGap="2dp"
+            to add dashes to your stroke-->
+        </shape>
+    </item>
+    <item
+        android:width="20dp"
+        android:height="30dp"
+        android:left="40dp"
+        android:top="40dp">
+        <shape android:shape="oval">
+            <corners
+                android:radius="20dp" />
+
+            <!--If your shape requires only one solid color-->
+            <solid android:color="#003366" />
+            <!--Use android:dashWidth="2dp" and android:dashGap="2dp"
+            to add dashes to your stroke-->
+        </shape>
+    </item>
+    <item
+        android:width="40dp"
+        android:height="15dp"
+        android:left="7dp"
+        android:top="19dp">
+        <rotate
+            android:fromDegrees="-45"
+            android:toDegrees="-45">
+            <shape android:shape="oval">
+                <corners
+                    android:topRightRadius="80dp"
+                    android:topLeftRadius="80dp"
+                    android:radius="10dp"/>
+
+                <!--If your shape requires only one solid color-->
+                <solid android:color="#3399CC" />
+                <size
+                    android:width="100dp"
+                    android:height="50dp" />
+                <!--Use android:dashWidth="2dp" and android:dashGap="2dp"
+                to add dashes to your stroke-->
+                <stroke
+                    android:width="4dp"
+                    android:color="#3399CC" />
+            </shape>
+        </rotate>
+    </item>
+    <item
+        android:width="9dp"
+        android:height="5dp"
+        android:left="42dp"
+        android:top="18dp">
+        <rotate
+            android:fromDegrees="-45"
+            android:toDegrees="-45">
+            <shape android:shape="oval">
+                <corners
+                    android:topRightRadius="80dp"
+                    android:topLeftRadius="80dp"
+                    android:radius="10dp"/>
+
+                <!--If your shape requires only one solid color-->
+                <solid android:color="#3399CC" />
+                <size
+                    android:width="100dp"
+                    android:height="50dp" />
+                <!--Use android:dashWidth="2dp" and android:dashGap="2dp"
+                to add dashes to your stroke-->
+            </shape>
+        </rotate>
+    </item>
+</layer-list>
