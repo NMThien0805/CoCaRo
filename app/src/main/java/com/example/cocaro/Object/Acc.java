@@ -5,6 +5,7 @@ import com.google.firebase.database.IgnoreExtraProperties;
 @IgnoreExtraProperties
 public class Acc {
     String username;
+    String email;
     String password;
     boolean trangthai;
     int won;
@@ -14,8 +15,9 @@ public class Acc {
     public Acc() {
     }
 
-    public Acc(String username, String password, boolean trangthai, int won, int lose, String img) {
+    public Acc(String username, String email, String password, boolean trangthai, int won, int lose, String img) {
         this.username = username;
+        this.email = email;
         this.password = password;
         this.trangthai = trangthai;
         this.won = won;
@@ -23,20 +25,29 @@ public class Acc {
         this.img = img;
     }
 
-    public String getUsername() {
-        return username;
-    }
-
     @Override
     public String toString() {
         return "Acc{" +
                 "username='" + username + '\'' +
+                ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
                 ", trangthai=" + trangthai +
                 ", won=" + won +
                 ", lose=" + lose +
                 ", img='" + img + '\'' +
                 '}';
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getUsername() {
+        return username;
     }
 
     public void setUsername(String username) {

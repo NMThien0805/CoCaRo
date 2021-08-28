@@ -86,12 +86,12 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
                         android:layout_marginTop="20dp">
-                        <CheckBox
-                            android:id="@+id/checkboxremember"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="20dp"
-                            android:text="Remember me" />
+<!--                        <CheckBox-->
+<!--                            android:id="@+id/checkboxremember"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="20dp"-->
+<!--                            android:text="Remember me" />-->
                         <TextView
                             android:id="@+id/forgotPass"
                             android:layout_width="match_parent"
@@ -162,7 +162,8 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:fontFamily="@font/poppinsmedium"
-                    android:text="Character in game"
+                    android:text="I TRIED MY BEST"
+                    android:textStyle="bold"
                     android:textSize="17dp" />
 
                 <ImageView
@@ -182,19 +183,19 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
-                <ImageView
-                    android:id="@+id/btnFb"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="10dp"
-                    android:src="@drawable/fb" />
+<!--                <ImageView-->
+<!--                    android:id="@+id/btnFb"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginRight="10dp"-->
+<!--                    android:src="@drawable/fb" />-->
 
-                <ImageView
-                    android:id="@+id/btnGg"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="10dp"
-                    android:src="@drawable/g" />
+<!--                <ImageView-->
+<!--                    android:id="@+id/btnGg"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginRight="10dp"-->
+<!--                    android:src="@drawable/g" />-->
             </LinearLayout>
 
             <LinearLayout

@@ -36,7 +36,7 @@ public class Register extends AppCompatActivity {
 
     String url_img_default = "https://firebasestorage.googleapis.com/v0/b/cocaro-f318d.appspot.com/o/avtmacdinhFB.jpg?alt=media&token=caf478e9-6ea6-4d29-8434-38a66b728345";
 
-    EditText username, password, confirmpassword;
+    EditText username, password, confirmpassword, email;
     TextView btnFolder, btnSingUP;
     ImageView img;
 
@@ -62,6 +62,7 @@ public class Register extends AppCompatActivity {
         username = findViewById(R.id.usename);
         password = findViewById(R.id.password);
         confirmpassword = findViewById(R.id.confirmPass);
+        email = findViewById(R.id.email);
 
         btnFolder = findViewById(R.id.btnFolder);
         btnSingUP = findViewById(R.id.btnSignup);
@@ -84,6 +85,9 @@ public class Register extends AppCompatActivity {
                 if(username.getText().toString().equals("")){
                     Toast.makeText(Register.this, "Username is not NULL!", Toast.LENGTH_SHORT).show();
                 }
+                else if(email.getText().toString().equals("")){
+                    Toast.makeText(Register.this, "Email is not NULL!", Toast.LENGTH_SHORT).show();
+                }
                 else if(password.getText().toString().equals("") || confirmpassword.getText().toString().equals("")){
                     Toast.makeText(Register.this, "Password and Confirm Password are not NULL!", Toast.LENGTH_SHORT).show();
                 }
@@ -95,7 +99,8 @@ public class Register extends AppCompatActivity {
                 }
                 else{
                     cn.Init();
-                    cn.singnUp(username.getText().toString(), password.getText().toString(), "", 1, selectedUriImage);
+                    cn.singnUp(username.getText().toString().trim(), email.getText().toString().trim(), password.getText().toString().trim()
+                            , "", 1, selectedUriImage);
                 }
             }
         });
@@ -117,7 +122,8 @@ public class Register extends AppCompatActivity {
                 dialogInterface.dismiss();
 
                 cn.Init();
-                cn.singnUp(username.getText().toString(), password.getText().toString(), url_img_default, 0, null);
+                cn.singnUp(username.getText().toString().trim(), email.getText().toString().trim(), password.getText().toString().trim()
+                        , url_img_default, 0, null);
             }
         });
         builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {

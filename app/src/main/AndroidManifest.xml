@@ -12,7 +12,12 @@
         android:screenOrientation="landscape"
         android:supportsRtl="true"
         android:theme="@style/Theme.CoCaro">
-        <activity android:name=".frmChoose2"></activity>
+        <activity android:name=".PlayGamePVEActivity"></activity>
+        <activity android:name=".PlayGameActivity" />
+        <activity android:name=".frmBeforePlayGame" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".frmChoose2" />
         <activity android:name=".frmChoose1" />
         <activity android:name=".Register" />
         <activity android:name=".Login">
@@ -21,15 +26,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".MainActivity">
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
         </activity>
     </application>
 

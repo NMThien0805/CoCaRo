@@ -49,6 +49,30 @@
         </shape>
     </item>
     <item
+        android:bottom="144dp">
+        <shape android:shape="line">
+            <stroke
+                android:width="2dp"
+                android:color="#FFFF" />
+        </shape>
+    </item>
+    <item
+        android:bottom="168dp">
+        <shape android:shape="line">
+            <stroke
+                android:width="2dp"
+                android:color="#FFFF" />
+        </shape>
+    </item>
+    <item
+        android:bottom="192dp">
+        <shape android:shape="line">
+            <stroke
+                android:width="2dp"
+                android:color="#FFFF" />
+        </shape>
+    </item>
+    <item
         android:bottom="-24dp">
         <shape android:shape="line">
             <stroke
@@ -82,6 +106,30 @@
     </item>
     <item
         android:bottom="-120dp">
+        <shape android:shape="line">
+            <stroke
+                android:width="2dp"
+                android:color="#FFFF" />
+        </shape>
+    </item>
+    <item
+        android:bottom="-144dp">
+        <shape android:shape="line">
+            <stroke
+                android:width="2dp"
+                android:color="#FFFF" />
+        </shape>
+    </item>
+    <item
+        android:bottom="-168dp">
+        <shape android:shape="line">
+            <stroke
+                android:width="2dp"
+                android:color="#FFFF" />
+        </shape>
+    </item>
+    <item
+        android:bottom="-192dp">
         <shape android:shape="line">
             <stroke
                 android:width="2dp"
@@ -144,6 +192,45 @@
     <item
         android:left="-60dp"
         android:right="60dp">
+        <rotate
+            android:fromDegrees="90"
+            android:toDegrees="90">
+            <shape android:shape="line">
+                <stroke
+                    android:width="2dp"
+                    android:color="#FFFF" />
+            </shape>
+        </rotate>
+    </item>
+    <item
+        android:left="-72dp"
+        android:right="72dp">
+        <rotate
+            android:fromDegrees="90"
+            android:toDegrees="90">
+            <shape android:shape="line">
+                <stroke
+                    android:width="2dp"
+                    android:color="#FFFF" />
+            </shape>
+        </rotate>
+    </item>
+    <item
+        android:left="-84dp"
+        android:right="84dp">
+        <rotate
+            android:fromDegrees="90"
+            android:toDegrees="90">
+            <shape android:shape="line">
+                <stroke
+                    android:width="2dp"
+                    android:color="#FFFF" />
+            </shape>
+        </rotate>
+    </item>
+    <item
+        android:left="-96dp"
+        android:right="96dp">
         <rotate
             android:fromDegrees="90"
             android:toDegrees="90">
@@ -222,6 +309,45 @@
     <item
         android:left="60dp"
         android:right="-60dp">
+        <rotate
+            android:fromDegrees="90"
+            android:toDegrees="90">
+            <shape android:shape="line">
+                <stroke
+                    android:width="2dp"
+                    android:color="#FFFF" />
+            </shape>
+        </rotate>
+    </item>
+    <item
+        android:left="72dp"
+        android:right="-72dp">
+        <rotate
+            android:fromDegrees="90"
+            android:toDegrees="90">
+            <shape android:shape="line">
+                <stroke
+                    android:width="2dp"
+                    android:color="#FFFF" />
+            </shape>
+        </rotate>
+    </item>
+    <item
+        android:left="84dp"
+        android:right="-84dp">
+        <rotate
+            android:fromDegrees="90"
+            android:toDegrees="90">
+            <shape android:shape="line">
+                <stroke
+                    android:width="2dp"
+                    android:color="#FFFF" />
+            </shape>
+        </rotate>
+    </item>
+    <item
+        android:left="96dp"
+        android:right="-96dp">
         <rotate
             android:fromDegrees="90"
             android:toDegrees="90">

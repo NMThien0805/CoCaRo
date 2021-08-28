@@ -13,6 +13,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.cocaro.Object.Acc;
+
+import java.io.Serializable;
+
 public class Login extends AppCompatActivity {
 
     EditText username, password;
@@ -22,7 +26,7 @@ public class Login extends AppCompatActivity {
 
     String urlImg = "";
 
-    ConnectFirebase cn = new ConnectFirebase(this, 9, this);
+    ConnectFirebase cn = new ConnectFirebase(this, this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,9 +44,9 @@ public class Login extends AppCompatActivity {
     void setControl(){
         username = findViewById(R.id.usename);
         password = findViewById(R.id.password);
-        chechboxRemember = findViewById(R.id.checkboxremember);
-        imgFb = findViewById(R.id.btnFb);
-        imgGg = findViewById(R.id.btnGg);
+//        chechboxRemember = findViewById(R.id.checkboxremember);
+//        imgFb = findViewById(R.id.btnFb);
+//        imgGg = findViewById(R.id.btnGg);
         forgot = findViewById(R.id.forgotPass);
         signIn = findViewById(R.id.btnSignin);
         signUp = findViewById(R.id.signup);
@@ -52,22 +56,23 @@ public class Login extends AppCompatActivity {
     }
 
     void setEvent(){
-        imgFb.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
-        imgGg.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
+//        imgFb.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//            }
+//        });
+//        imgGg.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//            }
+//        });
         forgot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(Login.this, ForgotPasswordActivity.class);
+                startActivity(intent);
             }
         });
         signIn.setOnClickListener(new View.OnClickListener() {
@@ -85,8 +90,13 @@ public class Login extends AppCompatActivity {
         });
     }
 
-    void go_to_home(){
-        Intent intent = new Intent(Login.this, frmChoose1.class);
+    void go_to_home(Acc acc){
+        Intent intent = new Intent(Login.this, HomeActivity.class);
+        intent.putExtra("username", acc.getUsername());
+        intent.putExtra("countWin", acc.getWon() + "");
+        intent.putExtra("countLose", acc.getLose() + "");
+        intent.putExtra("urlImg", acc.getImg());
         startActivity(intent);
+        finish();
     }
 }
